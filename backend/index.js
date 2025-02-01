@@ -29,6 +29,8 @@ app.get('/products', (req, res) => {
   });
 });
 
+
+
 app.post('/transactions/add', (req, res) => {
   const { productId, productName } = req.body;
 
